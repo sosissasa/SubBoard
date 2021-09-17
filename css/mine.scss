@@ -1,0 +1,12 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+
+//colors
+$blue: #61c4d9;
+
+@import "normalize.scss";
+@import "layout.scss";
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/features__list.scss";
+@import "components/button.scss";

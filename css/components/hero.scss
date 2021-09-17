@@ -1,0 +1,36 @@
+.hero {
+	background: url('../../img/surfboard.png');
+	min-height: 650px;
+	color: #FFFFFF;
+	width: $containerWidth;
+	margin: 0 auto;
+	background: #808080;
+}
+
+.hero__title-section {
+	width: 52%;
+}
+
+.hero__cotainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding: 24px 0 50px 80px;
+	height: 650px;
+}
+
+.hero__mine-title {
+	font-size: 48px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+
+}
+
+.hero__title-text {
+	font-size: 21px;
+	margin-bottom: 28px;
+	padding-right: 10%;
+}

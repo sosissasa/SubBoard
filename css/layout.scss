@@ -1,0 +1,69 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: $baseFontSize;
+	position: relative;
+	line-height: 1.42;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	min-width: $containerWidth + 20px;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	width: $containerWidth;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	padding: 0px
+//	margin: 0px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}

@@ -5,8 +5,15 @@
 	padding: 21px 41px;
 	border-radius: 1000000px;
 	line-height: 1;
+	border: none;
 
 	&--theme--yellow {
 		background: #FEDB3F;
 	}
+
+	&--theme--transparent {
+		background: transparent;
+		color: #fff ;
+	}
 }
+

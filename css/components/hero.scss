@@ -1,10 +1,11 @@
 .hero {
-	background: url('../../img/surfboard.png');
+	background: url('../img/surfboard.png') no-repeat;
 	min-height: 650px;
+	height: 100vh;
 	color: #FFFFFF;
 	width: $containerWidth;
 	margin: 0 auto;
-	background: #808080;
+
 }
 
 .hero__title-section {
